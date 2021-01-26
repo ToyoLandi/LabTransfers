@@ -1,0 +1,13 @@
+#!/bin/bash
+
+display_usage() {
+  echo -e "\nUsage:\n$0 [local port] [lab IP]"
+}
+
+if [  $# -lt 2 ]
+then
+  display_usage
+  exit 1
+fi
+
+/bin/ssh -v -N -L "$1:$2:22" "corpzone\cspears1@DNVSSHGWESS01.CORPZONE.INTERNALZONE.COM"

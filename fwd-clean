@@ -10,4 +10,4 @@ then
   exit 1
 fi
 
-/bin/ssh -v -N -L "$1:$2:22" "corpzone\cspears1@DNVSSHGWESS01.CORPZONE.INTERNALZONE.COM"
+/bin/ssh -v -N -L "$1:$2:22" "domain\user@server.address"

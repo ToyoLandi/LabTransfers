@@ -1,1 +1,1 @@
-C:\cygwin64\bin\mintty.exe /cygdrive/c/Users/cspears1/Desktop/labTransfer/fwd-clean 55555 172.17.28.205
+C:\cygwin64\bin\mintty.exe /cygdrive/c/Users/cspears1/Desktop/labTransfer/fwd-clean <port-to-open> <desired-server>

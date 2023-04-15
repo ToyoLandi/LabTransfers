@@ -14,7 +14,7 @@ This installation is basically following through the wizard. When you get to the
 
 #Setting up the SSH Tunnel...
 Step 1 - Edit the "fwd-clean" string on line 13 to point to your Corpzone ID.
-ex.) /bin/ssh -v -N -L "$1:$2:22" "corpzone\cspears1@DNVSSHGWESS01.CORPZONE.INTERNALZONE.COM"
+ex.) /bin/ssh -v -N -L "$1:$2:22" "domain\user@server.address"
 
 Step 2 - Edit the "labTransfer.bat" file to point to your desired server in the lab that is listening on port 22. As well as the install location where the "fwd-clean" file is placed which is headed by "/cygdrive/c/...". Only make changes after "c/"
 ex.) C:\cygwin64\bin\mintty.exe /cygdrive/c/Users/cspears1/Desktop/fwd-clean 55555 172.17.28.205
